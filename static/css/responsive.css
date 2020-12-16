@@ -98,13 +98,14 @@
     .ads-title {
         font-size: 24px;
         line-height: 28px;
-        max-width: 258px;
+        max-width: 80%;
     }
     .ads-description{
-        max-width: 244px;
+        max-width: 60%;
     }
     .banner-ads .right{
         margin-top: 28px;
+        width: 100%;
     }
     footer .col-md-5{
         margin-bottom: 28px;
@@ -117,10 +118,126 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+    /* Home-Page */
+    .navbar-light{
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+        border-bottom: none;
+    }
+    .banner .overlay{
+        background: linear-gradient(94.33deg, #331b4d 22%, rgba(19, 34, 55, 0) 140%);
+    }
+    .banner .carousel-indicators{
+        margin-left: 8%;
+    }
+    .banner .carousel-caption{
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+    .banner .banner-title {
+        font-size: 28px;
+        line-height: 36px;
+        max-width: 384px !important;
+    }
+    .banner .banner-description {
+        max-width: 274px !important;
+    }
+    .banner .btn-banner {
+        font-size: 12px;
+        line-height: 17px;
+        padding: 8px 18px;
+    }
+    .about-company {
+        padding-top: 68px;
+        padding-bottom: 84px;
+    }
+    .wrapper-about {
+        padding-left: 28px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-top: 12px;
+        padding-bottom: 14px;
+    }
+    .wrapper-reason{
+        padding: 48px 28px;
+    }
+    .reason-item{
+        margin-bottom: 24px;
+    }
+    .reason-title{   
+        font-size: 28px;
+    }
+    .partnership-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .wrapper-partnership {
+        padding: 0px 0px;
+    }
+    .vm-lg{
+        display: none;
+    }
+    .vm-sm{
+        display: block;
+    }
+    .testimonial {
+        padding-top: 64px;
+        padding-bottom: 84px;
+    }
+    .thumbnail-slider .controls ul{
+        text-align: center;
+    }
+    .banner-ads{
+        background: linear-gradient(267.54deg, rgba(67, 141, 152, 0.01) -22%, #331B4D 80%), url("../images/banner-ads.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .ads-title {
+        font-size: 28px;
+        max-width: 80%;
+    }
+    .ads-description{
+        max-width: 60%;
+    }
+    .banner-ads .right{
+        margin-top: 28px;
+        width: 100%;
+    }
+    footer .col-md-5{
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+    /* Home-Page */
+    .navbar-light{
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+        border-bottom: none;
+    }
+    .banner .overlay{
+        background: linear-gradient(94.33deg, #331b4d 22%, rgba(19, 34, 55, 0) 140%);
+    }
+    .wrapper-about {
+        margin-right: 44px;
+        margin-left: 44px;
+        padding-top: 12px;
+    }
+    .banner-ads .right{
+        margin-top: 28px;
+        width: 100%;
+    }
+    footer .col-md-5{
+        width: 100%;
+    }
+    .footer-description{
+        max-width: 90%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
