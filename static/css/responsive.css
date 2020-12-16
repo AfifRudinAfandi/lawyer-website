@@ -1,6 +1,19 @@
 @media (max-width: 575.98px) {
 
     /* Home-Page */
+    .navbar-light{
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+        border-bottom: none;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        padding: 18px 18px 18px 0px;
+    }
+    .banner .overlay{
+        background: linear-gradient(94.33deg, #331b4d 22%, rgba(19, 34, 55, 0) 140%);
+    }
     .banner .carousel-caption{
         margin-right: 4%;
         margin-left: 4%;
@@ -9,6 +22,9 @@
         font-size: 24px;
         line-height: 32px;
         max-width: 284px !important;
+    }
+    .banner .banner-description {
+        max-width: 274px !important;
     }
     .banner .btn-banner {
         font-size: 12px;
@@ -32,12 +48,18 @@
     .wrapper-reason{
         border-radius: 0;
         padding: 48px 28px;
+        align-items: flex-start;
     }
     .reason-item{
         margin-bottom: 24px;
+        align-items: flex-start;
     }
     .reason-title{   
         font-size: 28px;
+        text-align: left;
+    }
+    .reason-item-description{
+        text-align: start;
     }
     .wrapper-partnership {
         padding: 0;
@@ -57,8 +79,18 @@
         width: 32% !important;
         margin-bottom: 24px;
     }
+    .testimonial {
+        padding-top: 64px;
+        padding-bottom: 84px;
+    }
     .thumbnail-slider .controls ul{
         text-align: center;
+    }
+    .banner-ads{
+        background: linear-gradient(267.54deg, rgba(67, 141, 152, 0.01) -22%, #331B4D 80%), url("../images/banner-ads.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
     }
     .ads-title {
         font-size: 24px;
