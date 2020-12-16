@@ -14,6 +14,9 @@
     .banner .overlay{
         background: linear-gradient(94.33deg, #331b4d 22%, rgba(19, 34, 55, 0) 140%);
     }
+    .banner .carousel-indicators{
+        margin-left: 4%;
+    }
     .banner .carousel-caption{
         margin-right: 4%;
         margin-left: 4%;
