@@ -7,6 +7,15 @@
 }
 
 /* Navbar-Section */
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border: none;
+}
+.navbar-light .navbar-toggler-icon{
+    background: url("../images/toggle.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .navbar-light{
     padding-top: 0px;
     padding-bottom: 0px;

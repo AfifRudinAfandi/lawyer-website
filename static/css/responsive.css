@@ -1,14 +1,97 @@
-@media only screen and (max-width: 600px) {
-    .col-img{
-        flex: 0 0 auto;
-        width: 30% !important;
+@media (max-width: 575.98px) {
+
+    /* Home-Page */
+    .banner .carousel-caption{
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+    .banner .banner-title {
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 284px !important;
+    }
+    .banner .btn-banner {
+        font-size: 12px;
+        line-height: 17px;
+        padding: 8px 18px;
+    }
+    .about-company {
+        padding-top: 68px;
+        padding-bottom: 84px;
+    }
+    .wrapper-about {
+        padding-left: 18px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-top: 12px;
+        padding-bottom: 14px;
+    }
+    .reason-belive .container{
+        padding: 0;
+    }
+    .wrapper-reason{
+        border-radius: 0;
+        padding: 48px 28px;
+    }
+    .reason-item{
         margin-bottom: 24px;
     }
+    .reason-title{   
+        font-size: 28px;
+    }
+    .wrapper-partnership {
+        padding: 0;
+    }
+    .partnership-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .vm-lg{
+        display: none;
+    }
+    .vm-sm{
+        display: block;
+    }
+    .col-img{
+        flex: 0 0 auto;
+        width: 32% !important;
+        margin-bottom: 24px;
+    }
+    .thumbnail-slider .controls ul{
+        text-align: center;
+    }
+    .ads-title {
+        font-size: 24px;
+        line-height: 28px;
+        max-width: 258px;
+    }
+    .ads-description{
+        max-width: 244px;
+    }
+    .banner-ads .right{
+        margin-top: 28px;
+    }
+    footer .col-md-5{
+        margin-bottom: 28px;
+    }
+    footer .col:nth-last-child(1){
+        margin-top: 28px;
+        flex: 1 0 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
 
 }
-@media (min-width: 601px) and (min-width: 1200px) {
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
 }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
 @media (min-width: 1200px) {
     .ctf{
         max-width: 1200px !important;
