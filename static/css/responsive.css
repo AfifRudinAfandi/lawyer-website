@@ -1,4 +1,10 @@
 @media (max-width: 575.98px) {
+    /* Navbar */
+    nav .dropdown-multicol{
+        width: auto;
+        padding: 0;
+    }
+
 
     /* Home-Page */
     .navbar-light{
