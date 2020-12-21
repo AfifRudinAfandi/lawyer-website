@@ -151,6 +151,9 @@
         margin-bottom: 14px;
         flex: 100%;
     }
+    .table-pricing tbody td{
+        vertical-align: top;
+    }
     .table-pricing tbody td p {
         min-width: 328px;
     }
