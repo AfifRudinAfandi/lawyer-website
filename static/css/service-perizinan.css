@@ -186,6 +186,9 @@
 .table-responsive{
     width: 100%;
 }
+.accordion-item{
+    position: relative;
+}
 .pricing-table-title{
     font-style: normal;
     font-weight: 600;
@@ -240,6 +243,7 @@
     align-items: flex-start;
     text-align: start;
     padding: 1rem 0rem;
+    position: relative;
 }
 .table-header{
     font-style: normal;
