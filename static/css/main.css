@@ -49,6 +49,9 @@
     color: #132237 !important;
     border-bottom: solid 4px #F7B948;
 }
+nav .dropdown-item.active, .dropdown-item:active{
+    background-color: #ffffff00 !important;
+}
 .btn:focus{
     box-shadow: none;
 }
@@ -87,7 +90,7 @@ nav .dropdown-row{
     flex-wrap: wrap;
 }
 nav .dropdown-item:focus, .dropdown-item:hover{
-    background-color: #ffffff;
+    background-color: #ffffff00;
 }
 nav .dropdown-menu{
     margin: 0;
@@ -96,6 +99,7 @@ nav .dropdown-menu{
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
+    background-color: rgba(255, 255, 255, 0.99);
 }
 nav .dropdown-multicol{
     width: 43em;
@@ -108,8 +112,8 @@ nav .wrapper-menu{
     margin-bottom: 12px;
 }
 nav .check-sub-menu{
-    width: 32px;
-    height: 32px;
+    width: 26px;
+    height: 26px;
     background-color: #C4C4C4;
     border-radius: 6px;
     display: flex;
@@ -118,7 +122,7 @@ nav .check-sub-menu{
     justify-content: center;
 }
 nav .check-sub-menu i{
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     opacity: 0;
     transition: ease-in 0.2s;

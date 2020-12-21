@@ -1,0 +1,494 @@
+/* Banner-Section */
+
+.banner-services{
+    max-height: 530px;
+    padding-top: 64px;
+    padding-bottom: 234px;
+    background: linear-gradient(94.33deg, #361A4D 28.24%, rgba(19, 34, 55, 0) 91.68%), url("../images/banner-main2.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.banner-services .banner-lable{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    background-color: #FF7C5E;
+    border-radius: 80px;
+    padding: 8px 12px;
+    max-width: max-content;
+}
+.banner-services .banner-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    max-width: 604px;
+    margin-bottom: 22px;
+}
+.banner-services .banner-description{
+    max-width: 520px !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 28px;
+}
+
+/* Banner-Section-End */
+
+/* ===================================== */
+
+/* About-Services-Section */
+
+.about-services{
+    margin-top: -162px;
+    padding-bottom: 42px;
+}
+.about-services .wrapper-services{
+    padding: 52px 92px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(19, 34, 55, 0.15);
+    border-radius: 12px;
+}
+.about-services .services-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #132237;
+    margin-bottom: 20px;
+}
+.about-services .services-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #767676;
+    opacity: 0.7;
+    padding-left: 24px;
+    border-left: 4px solid #FF7C5E;
+    margin-bottom: 0;
+}
+
+/* About-Services-Section-End */
+
+/* ===================================== */
+
+/* Pricing-Section */
+
+.pricing{
+    padding-top: 64px;
+    padding-bottom: 94px;
+}
+.wrapper-pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 42px;
+}
+.company-lable{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    background-color: #FF7C5E;
+    border-radius: 80px;
+    padding: 8px 12px;
+    max-width: max-content;
+}
+.pricing-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #132237;
+    max-width: max-content;
+}
+.pricing-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #767676;
+    opacity: 0.7;
+    max-width: 752px;
+}
+.wrapper-pricing-filter{
+    background-color: #331B4D;
+    border-radius: 12px;
+    padding: 32px;
+    max-width: 698px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+.filter-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    max-width: max-content;
+}
+.row-pricing-filter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.wrapper-pricing-filter .form-select{
+    height: 42px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #000000;
+    width: 100%;
+}
+.wrapper-pricing-filter .item-pricing{
+    margin-right: 26px;
+}
+.button-pricing , .button-pricing:hover{
+    height: 42px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #FF7C5E;
+}
+.wrapper-table-pricing{
+    padding-top: 28px;
+}
+.table-description{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.pricing-table-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FF7C5E;
+    border: none;
+}
+.table-pricing tbody td{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #000000;
+    vertical-align: middle;
+}
+.table-pricing tbody td p{
+    font-weight: normal;
+    color: #828282;
+    max-width: 488px;
+}
+.table-pricing tbody td p a{
+    font-style: italic;
+    color: #745285;
+    text-decoration: none;
+}
+.button-book{
+    padding: 8px 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #132237;
+    background-color: #F2F2F2;
+    border-radius: 6px;
+}
+.button-book:hover{
+    color: #FFFFFF;
+    background-color: #FF7C5E;
+}
+/* Pricing-Section-End */
+
+/* ===================================== */
+
+/* How-It-Work-Section */
+.how-it-works{
+    background-color: #F8F8F8;
+    padding-top: 52px;
+}
+.how-it-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #331B4D;
+}
+.seperator{
+    width: 78px;
+    border-bottom: 4px solid #FF7C5E;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper-step{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.how-it-works .wrapper-step:nth-child(3){
+    padding-top: 58px;
+}
+.step-row{
+    display: flex;
+    align-items: center;
+}
+.how-it-works .wrapper-step:nth-child(odd){
+    background-color: #F8F8F8;
+}
+.how-it-works .wrapper-step:nth-child(even){
+    background-color: #FFFFFF;
+}
+.how-it-works .wrapper-step:nth-child(odd) .step-row{
+    flex-direction: row;
+}
+.how-it-works .wrapper-step:nth-child(even) .step-row{
+    flex-direction: row-reverse;
+}
+.how-it-works .wrapper-step:nth-child(odd) .step-row .wrapper-step-description{
+    padding-left: 44px;
+}
+.how-it-works .wrapper-step:nth-child(even) .step-row .wrapper-step-description{
+    padding-right: 44px;
+}
+.wrapper-icon{
+    width: 234px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+    border-radius: 100%;
+}
+.icon-step{
+    width: 116px;
+}
+.feature-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.feature-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.button-step{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #FB7E68;
+    margin-bottom: 0;
+    border: 1px solid #FF7C5E;
+    border-radius: 4px;
+    padding: 12px 32px;
+}
+.button-step:hover{
+    color: #FFFFFF;
+    background-color: #FF7C5E;
+}
+
+/* How-It-Work-Section-End */
+
+/* ===================================== */
+
+/* Testimonial-Section */
+
+.testimonial{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.testimonial-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #331B4D;
+    margin-bottom: 18px;
+}
+.testimonial-seperator{
+    border-bottom: 4px solid #FF7C5E;
+    width: 78px;
+    margin-bottom: 24px;
+}
+.wrapper-vm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+.testimonial-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.7;
+    max-width: 500px;
+}
+.btn-view-more{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #FF7C5E;
+}
+.wrapper-content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 18px;
+}
+.decor-testimonial{
+    width: 40px;
+    object-fit: contain;
+    margin-right: 14px;
+}
+.content-testimonial{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #767676;
+    opacity: 0.7;
+}
+.testimonial-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+.image-profile-testimonial{
+    width: 48px;
+    border-radius: 48px;
+    object-fit: cover;
+}
+.wrapper-profile-name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+.testimonial-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #132237;
+    margin-bottom: 2px;
+}
+.testimonial-company{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #767676;
+    opacity: 0.8;
+    margin-bottom: 0;
+}
+.vm-sm{
+    display: none;
+    text-align: center;
+    margin-top: 48px;
+}
+
+/* Testimonial-Section-End */
+
+/* ===================================== */
+
+/* Banner-Ads-Section */
+
+.banner-ads{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(267.54deg, rgba(67, 141, 152, 0.01) 2.66%, #331B4D 54.32%), url("../images/banner-ads.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.wrapper-banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.ads-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    max-width: 584px;
+}
+.ads-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.7;
+    max-width: 518px;
+}
+.button-ads,.button-ads:hover{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #FF7C5E;
+    border-radius: 4px;
+    padding: 12px 32px;
+}
+
+/* Banner-Ads-Section-End */
