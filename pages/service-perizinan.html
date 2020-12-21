@@ -69,10 +69,14 @@
               >
                 <div class="dropdown-row">
                   <div class="item-sub-menu">
-                    <a href="#" class="wrapper-menu dropdown-item active">
-                      <div class="check-sub-menu">
-                        <i class="fas fa-check"></i>
-                      </div>
+                    <a
+                      href="pages/service-perizinan.html"
+                      class="wrapper-menu dropdown-item"
+                    >
+                      <img
+                        class="icon-sub-menu"
+                        src="../static/images/ic-certificate.svg"
+                      />
                       <div class="wrapper-sub-name ms-2">
                         <p class="sub-title">Perizinan Usaha</p>
                         <p class="sub-description">
@@ -83,9 +87,10 @@
                   </div>
                   <div class="item-sub-menu">
                     <a href="#" class="wrapper-menu dropdown-item">
-                      <div class="check-sub-menu">
-                        <i class="fas fa-check"></i>
-                      </div>
+                      <img
+                        class="icon-sub-menu"
+                        src="../static/images/ic-justice.svg"
+                      />
                       <div class="wrapper-sub-name ms-2">
                         <p class="sub-title">Probono</p>
                         <p class="sub-description">
@@ -96,9 +101,10 @@
                   </div>
                   <div class="item-sub-menu">
                     <a href="#" class="wrapper-menu dropdown-item">
-                      <div class="check-sub-menu">
-                        <i class="fas fa-check"></i>
-                      </div>
+                      <img
+                        class="icon-sub-menu"
+                        src="../static/images/ic-briefcase.svg"
+                      />
                       <div class="wrapper-sub-name ms-2">
                         <p class="sub-title">Ketenagakerjaan</p>
                         <p class="sub-description">
@@ -109,9 +115,10 @@
                   </div>
                   <div class="item-sub-menu">
                     <a href="#" class="wrapper-menu dropdown-item">
-                      <div class="check-sub-menu">
-                        <i class="fas fa-check"></i>
-                      </div>
+                      <img
+                        class="icon-sub-menu"
+                        src="../static/images/ic-goverment.svg"
+                      />
                       <div class="wrapper-sub-name ms-2">
                         <p class="sub-title">Goverment service</p>
                         <p class="sub-description">
@@ -122,9 +129,10 @@
                   </div>
                   <div class="item-sub-menu">
                     <a href="#" class="wrapper-menu dropdown-item">
-                      <div class="check-sub-menu">
-                        <i class="fas fa-check"></i>
-                      </div>
+                      <img
+                        class="icon-sub-menu"
+                        src="../static/images/ic-police.svg"
+                      />
                       <div class="wrapper-sub-name ms-2">
                         <p class="sub-title">HAKI</p>
                         <p class="sub-description">
@@ -184,36 +192,40 @@
         </div>
       </section>
       <section class="pricing">
-        <div class="container wrapper-pricing">
-          <p class="company-lable">Kios Hukum.id</p>
-          <h1 class="pricing-title">Jaminan Layanan Terbaik</h1>
-          <p class="pricing-description">
-            Kios Hukum.id menyediakan layanan bantuan hukum terbaik dan di
-            tangani oleh pengacara berdedikasi tinggi di bidangnya.
-          </p>
-        </div>
-        <div class="wrapper-pricing-filter">
-          <p class="filter-title">Cek Harga Layanan</p>
-          <form action="#">
-            <div class="row-pricing-filter">
-              <div class="item-pricing col">
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>-- Pilih Wilayah --</option>
-                  <option value="1">.....</option>
-                </select>
-              </div>
-              <div class="item-pricing col">
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Pendiri Usaha - PT</option>
-                  <option value="1">.....</option>
-                </select>
-              </div>
-              <button class="btn button-pricing">Cek Harga</button>
-            </div>
-          </form>
-        </div>
         <div class="container">
-          <div class="wrapper-table-pricing">
+          <div class="wrapper-pricing">
+            <p class="company-lable">Kios Hukum.id</p>
+            <h1 class="pricing-title">Jaminan Layanan Terbaik</h1>
+            <p class="pricing-description">
+              Kios Hukum.id menyediakan layanan bantuan hukum terbaik dan di
+              tangani oleh pengacara berdedikasi tinggi di bidangnya.
+            </p>
+            <div class="wrapper-pricing-filter">
+              <p class="filter-title">Cek Harga Layanan</p>
+              <form action="#">
+                <div class="row-pricing-filter">
+                  <div class="item-pricing col">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>-- Pilih Wilayah --</option>
+                      <option value="1">.....</option>
+                    </select>
+                  </div>
+                  <div class="item-pricing col">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Pendiri Usaha - PT</option>
+                      <option value="1">.....</option>
+                    </select>
+                  </div>
+                  <button class="btn button-pricing">Cek Harga</button>
+                </div>
+              </form>
+            </div>
             <p class="table-description">
               Tawaran terbaik kami untuk layanan terpilih
             </p>
@@ -276,6 +288,128 @@
                 </tbody>
               </table>
             </div>
+            <div
+              class="accordion accordion-flush accordion-pricing"
+              id="accordionPricing"
+            >
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <div
+                    class="accordion-button collapsed collapse-item-pricing"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    <p class="table-header">Layanan</p>
+                    <p class="table-title">
+                      Pendirian usaha - PT (Perseroan Terbatas)
+                    </p>
+                    <p class="table-content">
+                      Estimasi penanganan layanan 25 hari kerja, dengan
+                      persyaratan terlampir. </p>
+                  </div>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionPricing"
+                >
+                  <div class="accordion-body">
+                    <a class="link-pernyataan" href="#">download Peryaratan</a>
+                    <div class="wrapper-table-content">
+                      <p class="table-header">Wilayah</p>
+                      <p class="table-title">JABODETABEK</p>
+                    </div>
+                    <div class="wrapper-table-content">
+                      <p class="table-header">Harga</p>
+                      <p class="table-title">IDR. 1.500.000,-</p>
+                    </div>
+                    <a class="btn button-book-mobile" href="#">Book Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <div
+                    class="accordion-button collapsed collapse-item-pricing"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    <p class="table-header">Layanan</p>
+                    <p class="table-title">
+                      Pendirian usaha - CV (commanditaire vennootschap)
+                    </p>
+                    <p class="table-content">
+                      Estimasi penanganan layanan 25 hari kerja, dengan
+                      persyaratan terlampir. </p>
+                  </div>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionPricing"
+                >
+                  <div class="accordion-body">
+                    <a class="link-pernyataan" href="#">download Peryaratan</a>
+                    <div class="wrapper-table-content">
+                      <p class="table-header">Wilayah</p>
+                      <p class="table-title">JABODETABEK</p>
+                    </div>
+                    <div class="wrapper-table-content">
+                      <p class="table-header">Harga</p>
+                      <p class="table-title">IDR. 1.500.000,-</p>
+                    </div>
+                    <a class="btn button-book-mobile" href="#">Book Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <div
+                    class="accordion-button collapsed collapse-item-pricing"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <p class="table-header">Layanan</p>
+                    <p class="table-title">
+                      Pendirian usaha - FIRMA
+                    </p>
+                    <p class="table-content">
+                      Estimasi penanganan layanan 25 hari kerja, dengan
+                      persyaratan terlampir. </p>
+                  </div>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionPricing"
+                >
+                  <div class="accordion-body">
+                    <a class="link-pernyataan" href="#">download Peryaratan</a>
+                    <div class="wrapper-table-content">
+                      <p class="table-header">Wilayah</p>
+                      <p class="table-title">JABODETABEK</p>
+                    </div>
+                    <div class="wrapper-table-content">
+                      <p class="table-header">Harga</p>
+                      <p class="table-title">IDR. 1.500.000,-</p>
+                    </div>
+                    <a class="btn button-book-mobile" href="#">Book Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -337,7 +471,6 @@
           </div>
         </div>
       </section>
-
       <section class="banner-ads">
         <div class="container">
           <div class="wrapper-banner">

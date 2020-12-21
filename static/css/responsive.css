@@ -101,16 +101,15 @@
         background-position: right;
     }
     .ads-title {
-        font-size: 24px;
-        line-height: 28px;
-        max-width: 80%;
+        max-width: 88%;
     }
     .ads-description{
-        max-width: 60%;
+        max-width: 80%;
     }
     .banner-ads .right{
         margin-top: 28px;
         width: 100%;
+        text-align: center;
     }
     footer .col-md-5{
         margin-bottom: 28px;
@@ -121,48 +120,29 @@
     }
 
     /* Services */
-    
+
+    .banner-services {
+        padding-bottom: 164px;
+    }
     .banner-services .banner-title {
-        font-size: 28px;
-        line-height: 36px;
+        max-width: 327px;
     }
     .about-services .wrapper-services {
-        padding: 42px 34px 54px 34px;
-    }
-    .about-services .services-title {
-        font-size: 28px;
-        line-height: 36px;
+        padding: 34px 34px 54px 34px;
     }
     .about-services .services-description {
         padding-left: 24px;
-        border-left: 2px solid #FF7C5E;
-    }
-    .wrapper-pricing {
-        align-items: flex-start;
-    }
-    .pricing-description{
-        text-align: start;
-    }
-    .wrapper-pricing-filter{
-        border-radius: 0px;
     }
     .wrapper-pricing-filter .item-pricing {
         margin-right: 0px;
         margin-bottom: 14px;
         flex: 100%;
     }
-    .table-pricing tbody td{
-        vertical-align: top;
-        min-width: 150px;
+    .pricing .table-description{
+        margin-bottom: 24px;
     }
-    .table-pricing tbody td p {
-        min-width: 328px;
-    }
-    .table>:not(caption)>*>*{
-        padding: .5rem 1rem;
-    }
-    .button-book{
-        min-width: max-content;
+    .pricing .table-responsive{
+        display: none;
     }
     .how-it-works .wrapper-step {
         padding-top: 80px;
@@ -172,7 +152,7 @@
         width: 128px;
         height: 128px;
         margin: auto;
-        margin-bottom: 22px;
+        margin-bottom: 24px;
     }
     .how-it-works .icon-step {
         width: 78px;
@@ -291,15 +271,8 @@
     .about-services .wrapper-services {
         padding: 42px 34px 54px 34px;
     }
-    .wrapper-pricing-filter{
-        border-radius: 0px;
-    }
-    .table-pricing tbody td{
-        vertical-align: top;
-        min-width: 150px;
-    }
-    .table-pricing tbody td p {
-        min-width: 328px;
+    .pricing .table-responsive{
+        display: none;
     }
     .how-it-works .wrapper-icon {
         width: 158px;
@@ -342,22 +315,29 @@
     }
 
     /* Services */
-    .table-pricing tbody td{
-        min-width: 150px;
-        max-width: max-content;
-    }
-    .table-pricing tbody td p{
-        min-width: 388px;
+
+    .pricing .table-responsive{
+        display: none;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Services */
     
+    .accordion-pricing{
+        display: none;
+    }
 }
 
 @media (min-width: 1200px) {
     .ctf{
         max-width: 1200px !important;
+    }
+
+    /* Services */
+    
+    .accordion-pricing{
+        display: none;
     }
 }
 @media (min-width: 1400px) {

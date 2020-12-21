@@ -109,32 +109,14 @@ nav .wrapper-menu{
     display: flex;
     flex-direction: row;
     white-space: normal;
+    align-items: flex-start;
     margin-bottom: 12px;
 }
-nav .check-sub-menu{
-    width: 26px;
-    height: 26px;
-    background-color: #C4C4C4;
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-nav .check-sub-menu i{
-    font-size: 18px;
-    color: #ffffff;
-    opacity: 0;
-    transition: ease-in 0.2s;
-}
-nav .dropdown-item:focus, .dropdown-item:hover .check-sub-menu i{
-    opacity: 1;
+.icon-sub-menu{
+    width: 32px;
 }
 nav .dropdown-item.active, .dropdown-item:active{
     background-color: #FFFFFF;
-}
-nav .dropdown-item.active, .dropdown-item.active .check-sub-menu i{
-    opacity: 1;
 }
 nav .sub-title{
     font-style: normal;
