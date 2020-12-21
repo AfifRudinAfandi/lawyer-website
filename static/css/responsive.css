@@ -153,6 +153,7 @@
     }
     .table-pricing tbody td{
         vertical-align: top;
+        min-width: 150px;
     }
     .table-pricing tbody td p {
         min-width: 328px;
