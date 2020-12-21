@@ -5,7 +5,6 @@
         padding: 14px 0px;
     }
 
-
     /* Home-Page */
     .navbar-light{
         padding-bottom: 18px;
@@ -119,6 +118,73 @@
     footer .col:nth-last-child(1){
         margin-top: 28px;
         flex: 1 0 100%;
+    }
+
+    /* Services */
+    
+    .banner-services .banner-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .about-services .wrapper-services {
+        padding: 42px 34px 54px 34px;
+    }
+    .about-services .services-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .about-services .services-description {
+        padding-left: 24px;
+        border-left: 2px solid #FF7C5E;
+    }
+    .wrapper-pricing {
+        align-items: flex-start;
+    }
+    .pricing-description{
+        text-align: start;
+    }
+    .wrapper-pricing-filter{
+        border-radius: 0px;
+    }
+    .wrapper-pricing-filter .item-pricing {
+        margin-right: 0px;
+        margin-bottom: 14px;
+        flex: 100%;
+    }
+    .table-pricing tbody td p {
+        min-width: 328px;
+    }
+    .table>:not(caption)>*>*{
+        padding: .5rem 1rem;
+    }
+    .button-book{
+        min-width: max-content;
+    }
+    .how-it-works .wrapper-step {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .how-it-works .wrapper-icon {
+        width: 128px;
+        height: 128px;
+        margin: auto;
+        margin-bottom: 22px;
+    }
+    .how-it-works .icon-step {
+        width: 78px;
+    }
+    .how-it-works .wrapper-step-description{
+        flex:100%;
+        text-align: center;
+    }
+    .how-it-works .wrapper-step:nth-child(odd) .step-row .wrapper-step-description{
+        padding-left: 0px;
+    }
+    .how-it-works .wrapper-step:nth-child(even) .step-row .wrapper-step-description {
+        padding-right: 0px;
+    }
+    .how-it-works .feature-description {
+        margin-bottom: 38px;
     }
 }
 

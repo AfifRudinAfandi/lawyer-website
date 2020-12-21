@@ -255,7 +255,6 @@
 .wrapper-step{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -265,6 +264,7 @@
 .step-row{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .how-it-works .wrapper-step:nth-child(odd){
     background-color: #F8F8F8;
