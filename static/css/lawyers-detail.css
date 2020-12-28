@@ -1,0 +1,304 @@
+/* Banner-Section */
+
+.banner-lawyers-detail{
+    max-height: 530px;
+    padding-top: 104px;
+    padding-bottom: 179px;
+    background: linear-gradient(89.09deg, #361A4D 40.75%, rgba(19, 34, 55, 0) 83.99%), url("../images/banner-main.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.banner-lawyers-detail .wrapper-banner-detail, .wrapper-experiance{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.banner-lawyers-detail .banner-profile{
+    width: 132px;
+    height: 132px;
+    border-radius: 100%;
+    pointer-events: none;
+}
+.banner-lawyers-detail .banner-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    max-width: 604px;
+}
+.banner-lawyers-detail .banner-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.banner-lawyers-detail .wrapper-banner-description{
+    margin-left: 28px;
+}
+.banner-lawyers-detail .wrapper-experiance span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.banner-lawyers-detail .profile-experience{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.banner-lawyers-detail .profile-experience i{
+    margin-right: 10px;
+    color: #9CCE7D;
+    margin-bottom: 0;
+}
+/* Banner-Section-End */
+
+/* ===================================== */
+
+/* About-Services-Section */
+
+.profile-services{
+    margin-top: -128px;
+    padding-bottom: 42px;
+}
+.profile-services .wrapper-services{
+    padding: 52px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(19, 34, 55, 0.15);
+    border-radius: 12px;
+}
+.profile-services .profile-services-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #132237;
+    margin-bottom: 20px;
+}
+.profile-services .profile-services-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #767676;
+    opacity: 0.7;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    border-left: 4px solid #FF7C5E;
+    margin-bottom: 48px;
+}
+.profile-services .profile-identity .col-md-3{
+    margin-bottom: 20px;
+}
+.profile-identity .head-profile-identity{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #132237;
+    margin-bottom: 45px;
+    position: relative;
+}
+.profile-identity .head-profile-identity::after{
+    content: '';
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    border-bottom: 3px solid #FF7C5E;
+    width: 32px;
+}
+.profile-identity .direction{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #331B4D;
+    margin-bottom: 0;
+}
+.profile-identity .direction a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FF7C5E;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+.profile-identity .address-detail{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #331B4D;
+    margin-bottom: 0;
+}
+.profile-identity .list-identity{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+.profile-identity ul {
+    list-style: none;
+    padding: 0;
+}
+.profile-identity li {
+    padding-left: 1.7em;
+    margin-bottom: 14px;
+}
+.profile-identity li:before {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: -1.7em;
+    width: 1.7em;
+    color: #9CCE7D;
+}
+/* About-Services-Section-End */
+
+/* ===================================== */
+
+/* Lawyers-Section */
+
+.other-lawyers{
+    padding-top: 89px;
+    padding-bottom: 90px;
+}
+
+.other-lawyers .team-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #331B4D;
+    margin-bottom: 20px;
+}
+.other-lawyers .lawyers-seperator{
+    width: 78px;
+    border-bottom: 4px solid #FF7C5E;
+    margin-bottom: 74px;
+}
+.other-lawyers .lawyers-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 38px;
+    padding: 72px 24px 24px 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(19, 34, 55, 0.05);
+    border-radius: 4px;
+    text-decoration: none;
+    position: relative;
+}
+.lawyers-item .profile-team{
+    width: 70%;
+    max-width: 132px;
+    border-radius: 100%;
+    margin-bottom: 16px;
+}
+.lawyers-item .profile-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+.lawyers-item .profile-experience{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+.lawyers-item .profile-experience i{
+    margin-right: 10px;
+    color: #9CCE7D;
+    font-size: 16px;
+}
+.lawyers-item .lable-lawyers{
+    position: absolute;
+    top: 22px;
+    left: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #FF7C5E;
+    background-color: #FEF7F5;
+    padding: 7px 12px;
+    max-width: 80%;
+    border-radius: 0px 80px 80px 0px;
+    margin-bottom: 0;
+}
+
+/* Lawyers-Section-End */
+
+/* ===================================== */
+
+/* Banner-Ads-Section */
+
+.banner-ads{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(267.54deg, rgba(67, 141, 152, 0.01) 2.66%, #331B4D 54.32%), url("../images/banner-ads.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.wrapper-banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.ads-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    max-width: 584px;
+}
+.ads-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.7;
+    max-width: 518px;
+}
+.button-ads,.button-ads:hover{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #FF7C5E;
+    border-radius: 4px;
+    padding: 12px 32px;
+}
+
+/* Banner-Ads-Section-End */

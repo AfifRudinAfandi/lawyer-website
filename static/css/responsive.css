@@ -170,6 +170,44 @@
     .how-it-works .feature-description {
         margin-bottom: 38px;
     }
+
+    /* Lawyers-Section */
+    .banner-lawyers-detail .wrapper-banner-description {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .banner-lawyers-detail .banner-profile{
+        margin-bottom: 20px;
+        width: 108px;
+        height: 108px;
+    }
+    .banner-lawyers-detail .banner-title{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .banner-lawyers-detail .banner-description{
+        width: 100%;
+    }
+    .banner-lawyers-detail .wrapper-experiance span{
+        display: none;
+    }
+    .profile-services {
+        margin-top: -89px;
+    }
+    .banner-lawyers-detail {
+        padding-top: 98px;
+        padding-bottom: 124px;
+    }
+    .profile-services .wrapper-services{
+        padding: 24px;
+    }
+
+    .profile-identity .head-profile-identity{
+        margin-bottom: 20px;
+    }
+    .profile-identity .head-profile-identity::after{
+        bottom: -6px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -264,6 +302,7 @@
     }
     footer .col-md-5{
         width: 100%;
+        margin-bottom: 28px;
     }
 
     /* Services */
@@ -283,6 +322,31 @@
     }
     .how-it-works .step-row{
         align-items: flex-start;
+    }
+
+    /* Lawyers-Section */
+
+    .our-lawyers .col-md-3{
+        flex: 0 0 50%;
+    }
+    .other-lawyers .col-md-3{
+        flex: 0 0 50%;
+    }
+    .banner-lawyers-detail .wrapper-banner-description {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .banner-lawyers-detail .banner-profile{
+        margin-bottom: 20px;
+        width: 108px;
+        height: 108px;
+    }
+    .profile-services {
+        margin-top: -89px;
+    }
+    .banner-lawyers-detail {
+        padding-top: 98px;
+        padding-bottom: 124px;
     }
 }
 
@@ -318,6 +382,15 @@
 
     .pricing .table-responsive{
         display: none;
+    }
+
+    /* Lawyers-Section */
+
+    .our-lawyers .col-md-3{
+        flex: 0 0 33.3%;
+    }
+    .other-lawyers .col-md-3{
+        flex: 0 0 33.3%;
     }
 }
 

@@ -322,8 +322,13 @@
     border-radius: 6px;
     padding: 12px 0px;
     width: 80%;
+    max-width: 282px;
     margin: auto;
     margin-top: 20px;
+}
+.accordion-button:focus {
+    border-color: #dfdfdf;
+    box-shadow: none;
 }
 /* Pricing-Section-End */
 
