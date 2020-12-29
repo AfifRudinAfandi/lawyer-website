@@ -208,6 +208,78 @@
     .profile-identity .head-profile-identity::after{
         bottom: -6px;
     }
+
+
+    /* Contact */
+    .banner-contact {
+        padding-bottom: 146px;
+    }
+    .banner-contact .banner-title {
+        font-size: 32px;
+        max-width: 270px;
+    }
+    .customer-assistance {
+        margin-top: -118px;
+    }
+    .customer-assistance .item-customer-assistance, .customer-assistance .item-faq {
+        padding: 34px 24px;
+        justify-content: center;
+        margin-bottom: 14px;
+    }
+    .item-customer-assistance .wrapper-icon, .item-faq .wrapper-icon{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 18px;
+    }
+    .item-customer-assistance .wrapper-content , .item-faq .wrapper-content{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .item-customer-assistance .item-description, .item-faq .item-description{
+        text-align: center;
+    }
+    .item-customer-assistance .item-faq .item-title, .item-faq .item-title{
+        text-align: center;
+    }
+    section.contact {
+        padding-top: 28px;
+        padding-bottom: 34px;
+    }
+    section.contact .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    section.contact .left{
+        border-radius: 0;
+        padding: 32px 24px;
+    }
+    section.contact .left .col:nth-child(2) {
+        padding-right: 10px;
+        margin-bottom: 28px;
+    }.contact .left .col:nth-last-child(1) {
+        padding-left: 10px;
+        margin-bottom: 28px;
+    }
+    section.contact .left .direction-detail {
+        max-width: max-content;
+    }
+    section.contact .right {
+        padding: 46px 12px 46px 12px;
+    }
+    section.contact .right .form-control {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    section.contact .right .form-control::placeholder {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    section.contact .right .form-label{
+        font-size: 13px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -348,6 +420,55 @@
         padding-top: 98px;
         padding-bottom: 124px;
     }
+
+    /* Contact */
+    .banner-contact {
+        padding-bottom: 146px;
+    }
+    .banner-contact .banner-title {
+        font-size: 32px;
+        max-width: 270px;
+    }
+    .customer-assistance {
+        margin-top: -118px;
+    }
+    .customer-assistance .item-customer-assistance, .customer-assistance .item-faq {
+        padding: 34px 24px;
+        justify-content: center;
+        margin-bottom: 14px;
+    }
+    .item-customer-assistance .wrapper-icon, .item-faq .wrapper-icon{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 18px;
+    }
+    .item-customer-assistance .wrapper-content , .item-faq .wrapper-content{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .item-customer-assistance .item-description, .item-faq .item-description{
+        text-align: center;
+    }
+    section.contact {
+        padding-top: 28px;
+        padding-bottom: 34px;
+    }
+    section.contact .left .col:nth-child(2) {
+        padding-right: 0;
+        margin-bottom: 28px;
+    }.contact .left .col:nth-last-child(1) {
+        padding-left: 0;
+        margin-bottom: 28px;
+    }
+    section.contact .left .direction-detail {
+        max-width: max-content;
+    }
+    section.contact .right {
+        padding: 46px 12px 46px 12px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -392,6 +513,44 @@
     .other-lawyers .col-md-3{
         flex: 0 0 33.3%;
     }
+
+    /* Contact */
+    .customer-assistance .item-customer-assistance, .customer-assistance .item-faq {
+        padding: 34px 24px;    
+        min-height: 373px;
+    }
+    .item-customer-assistance .wrapper-icon, .item-faq .wrapper-icon{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 18px;
+    }
+    .item-customer-assistance .wrapper-content , .item-faq .wrapper-content{
+        margin-left: 0;
+        width: 100%;
+    }
+    .item-customer-assistance .button-cs, .item-customer-assistance .button-cs:hover ,.item-faq .button-cs, .item-faq .button-cs:hover{
+        padding: 16px 18px;
+        width: 100%;
+    }
+    section.contact .container .row .col-md-6:nth-child(1){
+        width: 40%;
+    }
+    section.contact .container .row .col-md-6:nth-child(2){
+        width: 60%;
+    }
+    section.contact .left{
+        padding: 46px 24px;
+    }
+    section.contact .left .col:nth-child(2) {
+        padding-right: 0;
+        margin-bottom: 28px;
+    }.contact .left .col:nth-last-child(1) {
+        padding-left: 0;
+        margin-bottom: 28px;
+    }
+    section.contact .left .direction-detail {
+        max-width: max-content;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -399,6 +558,32 @@
     
     .accordion-pricing{
         display: none;
+    }
+
+    /* Contact */
+    .customer-assistance .item-customer-assistance, .customer-assistance .item-faq {
+        padding: 34px 24px;    
+        min-height: 373px;
+    }
+    .item-customer-assistance .wrapper-icon, .item-faq .wrapper-icon{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 18px;
+    }
+    .item-customer-assistance .wrapper-content , .item-faq .wrapper-content{
+        margin-left: 0;
+        width: 100%;
+    }
+    .item-customer-assistance .button-cs, .item-customer-assistance .button-cs:hover ,.item-faq .button-cs, .item-faq .button-cs:hover{
+        padding: 16px 18px;
+        width: 100%;
+    }
+    section.contact .left .col:nth-child(2) {
+        padding-right: 10px;
+        margin-bottom: 28px;
+    }.contact .left .col:nth-last-child(1) {
+        padding-left: 10px;
+        margin-bottom: 28px;
     }
 }
 
