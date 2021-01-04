@@ -492,6 +492,16 @@
     section.contact .right {
         padding: 46px 12px 46px 12px;
     }
+
+    /* FAQ */
+    .faq-body .nav-pills .nav-item {
+        flex: 0 0 50%;
+        margin-bottom: 16px;
+    }
+    .faq-body .nav-pills {
+        margin-bottom: 84px;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -573,6 +583,15 @@
     }
     section.contact .left .direction-detail {
         max-width: max-content;
+    }
+    /* FAQ */
+    .faq-body .nav-pills .nav-item {
+        flex: 0 0 33.3%;
+        margin-bottom: 16px;
+    }
+    .faq-body .nav-pills {
+        margin-bottom: 84px;
+        justify-content: center;
     }
 }
 
