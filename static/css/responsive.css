@@ -56,18 +56,12 @@
     .wrapper-reason{
         border-radius: 0;
         padding: 48px 28px;
-        align-items: flex-start;
     }
     .reason-item{
         margin-bottom: 24px;
-        align-items: flex-start;
     }
     .reason-title{   
         font-size: 28px;
-        text-align: left;
-    }
-    .reason-item-description{
-        text-align: start;
     }
     .wrapper-partnership {
         padding: 0;
@@ -170,6 +164,10 @@
     .how-it-works .feature-description {
         margin-bottom: 38px;
     }
+    .row-pricing-filter .button-pricing{
+        width: 100%;
+        display: block;
+    }
 
     /* Lawyers-Section */
     .banner-lawyers-detail .wrapper-banner-description {
@@ -208,7 +206,12 @@
     .profile-identity .head-profile-identity::after{
         bottom: -6px;
     }
-
+    section.our-lawyers , section.other-lawyers{
+        padding-top: 38px;
+    }
+    .our-lawyers .lawyers-seperator, .other-lawyers .lawyers-seperator{
+        margin-bottom: 58px;
+    }
 
     /* Contact */
     .banner-contact {
@@ -220,6 +223,7 @@
     }
     .customer-assistance {
         margin-top: -118px;
+        padding-top: 24px;
     }
     .customer-assistance .item-customer-assistance, .customer-assistance .item-faq {
         padding: 34px 24px;
@@ -279,6 +283,19 @@
     }
     section.contact .right .form-label{
         font-size: 13px;
+    }
+    section.contact .right .wrapper-form-control {
+        margin-bottom: 0;
+    }
+    section.contact .right .wrapper-form-control .col{
+        flex: 1 0 100%;
+        margin-bottom: 32px;
+    }
+    section.contact .right .wrapper-form-control .form-check-inline{
+        width: 100%;
+    }
+    .contact .right form .wrapper-form-control:nth-child(3),     .contact .right form .wrapper-form-control:nth-child(4){
+        margin-bottom: 32px;
     }
 
     /* FAQ */
