@@ -303,6 +303,29 @@
     .faq-body .nav-pills .nav-link img{
         margin-bottom: 0;
     }
+
+    /* Register */
+    .register-form{
+        padding-top: 32px;
+        padding-bottom: 64px;
+    }
+    .register-form .right .title{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .register-form .left{
+        display: none;
+    }
+    .register-form .right {
+        padding: 0;
+    }
+    .register-form .right .wrapper-form-control{
+        margin-bottom: 0;
+    }
+    .register-form .right .wrapper-form-control .col{
+        flex: 1 0 100%;
+        margin-bottom: 32px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -502,6 +525,22 @@
         margin-bottom: 84px;
         justify-content: center;
     }
+    
+    /* Register */
+    .register-form{
+        padding-top: 32px;
+        padding-bottom: 64px;
+    }
+    .register-form .right .title{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .register-form .left{
+        display: none;
+    }
+    .register-form .right {
+        padding: 0;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -592,6 +631,32 @@
     .faq-body .nav-pills {
         margin-bottom: 84px;
         justify-content: center;
+    }
+
+    /* Register */
+    .register-form{
+        padding-top: 32px;
+        padding-bottom: 64px;
+    }
+    .register-form .right .title{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .register-form .right {
+        padding: 0;
+    }
+    .register-form .right .wrapper-form-control{
+        margin-bottom: 0;
+    }
+    .register-form .right .wrapper-form-control .col{
+        flex: 1 0 100%;
+        margin-bottom: 32px;
+    }
+    .register-form .left .quotes{
+        font-size: 12px;
+    }
+    .register-form .left {
+        padding: 46px 28px 68px 28px;
     }
 }
 
