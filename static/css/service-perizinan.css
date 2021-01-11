@@ -542,3 +542,195 @@
 }
 
 /* Testimonial-Section-End */
+
+
+/* Modal-Section */
+
+.login-form{
+    padding: 40px;
+}
+.login-form .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 46px 34px 117px 34px;
+    background: linear-gradient(126.93deg, #331B4D 18.6%, rgba(51, 27, 77, 0) 93.9%), url("../images/bg-login.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+}
+.login-form .left .wrapper-icon-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 138px;
+    height: 138px;
+    background-image: url("../images/circle-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 44px;
+}
+.login-form .left .wrapper-icon-form .image-icon{
+    width: 84px;
+    height: 84px;
+    object-fit: cover;
+    border-radius: 100%;
+    pointer-events: none;
+}
+.login-form .left .wrapper-icon-form .decore{
+    position: absolute;
+    bottom: -13px;
+    pointer-events: none;
+    width: 28px;
+    height: 28px;
+}
+.login-form .left .quotes{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    max-width: 420px;
+}
+
+.login-form .right{
+    padding: 26px 0px 0px 0px;
+}
+.login-form .right .title{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #331B4D;
+    margin-bottom: 64px;
+    width: 100%;
+}
+.login-form .right .title::after{
+    position: absolute;
+    content: '';
+    width: 78px;
+    border-bottom: 4px solid #FF7C5E;
+    bottom: -18px;
+    left: 0;
+}
+.login-form .right .wrapper-form-control{
+    margin-bottom: 26px;
+}
+.login-form .right.form-login .wrapper-form-control{
+    max-width: 388px;
+    padding-right: 48px;
+}
+.login-form .right.form-login .wrapper-form-control .col{
+    margin-bottom: 12px;
+}
+.login-form .right .wrapper-form-control:nth-last-of-type(1){
+    margin-bottom: 38px;
+}
+.login-form .right .form-label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 6px;
+}
+.login-form .right .form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.5px solid rgba(118, 118, 118, 0.35);
+    border-radius: 0;
+    padding-left: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #132237;
+    background-color: hsla(0, 0%, 100%, 0);
+}
+.login-form .right .form-control:focus{
+    box-shadow: none;
+    color: #FF7C5E;
+}
+.login-form .right .form-control::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #132237;
+    opacity: 0.5;
+}
+.login-form .right .form-check .form-check-label{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.login-form .right .button-messages, .register-form .right .button-messages:hover{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #FF7C5E;
+    padding: 16px 32px;
+}
+.login-form .right .direct-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #767676;
+    margin-bottom: 0;
+}
+.login-form .right .direct-link a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #745285;
+    text-decoration: none;
+}
+.login-form .right .wrapper-password{
+    position: relative;
+}
+.login-form .right .wrapper-password .preview_icon{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #000000;
+    font-size: 14px;
+    cursor: pointer;
+}
+.forgot, .forgot:hover{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #745285;
+    margin-top: 12px;
+    text-decoration: none;
+}
+.modal-content{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(19, 34, 55, 0.15);
+    border-radius: 12px;
+}
+.btn-close{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+    background-size: 14px;
+}
+/* modal-Section-End */

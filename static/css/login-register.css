@@ -74,10 +74,16 @@
     left: 0;
 }
 .register-form .right .wrapper-form-control{
+    margin-bottom: 26px;
+}
+.register-form .right .wrapper-form-control:nth-last-of-type(1){
     margin-bottom: 38px;
 }
 .register-form .right.form-login .wrapper-form-control{
     max-width: 388px;
+}
+.register-form .right.form-login .wrapper-form-control .col{
+    margin-bottom: 12px;
 }
 .register-form .right .form-label{
     font-style: normal;
@@ -156,6 +162,16 @@
     color: #000000;
     font-size: 14px;
     cursor: pointer;
+}
+
+.forgot, .forgot:hover{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #745285;
+    margin-top: 12px;
+    text-decoration: none;
 }
 /* Contact-Section-End */
 

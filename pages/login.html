@@ -185,6 +185,7 @@
                         <i class="preview_icon far fa-eye" id="togglePassword"></i>
                       </div>
                     </div>
+                    <a class="forgot" href="#">Forgot Password?</a>
                   </div>
 
                   <button class="btn button-messages mb-4" type="submit">Log In Now</button>
@@ -261,18 +262,10 @@
     <script>
       const togglePassword = document.querySelector('#togglePassword');
       const password = document.querySelector('#password');
-      
-      const togglePasswordConfirm = document.querySelector('#togglePasswordConfirm');
-      const passwordConfirm = document.querySelector('#passwordConfirm');
 
       togglePassword.addEventListener('click', function (e) {
         const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
         password.setAttribute('type', type);
-        this.classList.toggle('fa-eye-slash');
-      });
-      togglePasswordConfirm.addEventListener('click', function (e) {
-        const type = passwordConfirm.getAttribute('type') === 'password' ? 'text' : 'password';
-        passwordConfirm.setAttribute('type', type);
         this.classList.toggle('fa-eye-slash');
       });
     </script>
