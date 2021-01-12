@@ -16,72 +16,79 @@
     .navbar-light .navbar-nav .nav-item .nav-link {
         padding: 18px 18px 18px 0px;
     }
-    .banner .overlay{
+    section.home.banner .overlay{
         background: linear-gradient(94.33deg, #331b4d 22%, rgba(19, 34, 55, 0) 140%);
     }
-    .banner .carousel-indicators{
+    section.home.banner .carousel-indicators{
         margin-left: 4%;
     }
-    .banner .carousel-caption{
+    section.home.banner .carousel-caption{
         margin-right: 4%;
         margin-left: 4%;
     }
-    .banner .carousel-caption .banner-title {
+    section.home.banner .carousel-caption .banner-title {
         font-size: 24px;
         line-height: 32px;
         max-width: 284px !important;
     }
-    .banner .carousel-caption .banner-description {
+    section.home.banner .carousel-caption .banner-description {
         max-width: 274px !important;
     }
-    .banner .btn-banner {
+    section.home.banner .btn-banner {
         font-size: 12px;
         line-height: 17px;
         padding: 8px 18px;
     }
-    .about-company {
+    section.about-company.home {
         padding-top: 68px;
         padding-bottom: 84px;
     }
-    .wrapper-about {
+    section.about-company.home .wrapper-about {
         padding-left: 18px;
         margin-right: 0;
         margin-left: 0;
         padding-top: 12px;
         padding-bottom: 14px;
     }
-    .reason-belive .container{
+    section.reason-belive.home .container{
         padding: 0;
     }
-    .wrapper-reason{
+    section.reason-belive.home .wrapper-reason{
         border-radius: 0;
         padding: 48px 28px;
     }
-    .reason-item{
+    section.reason-belive.home .reason-item{
         margin-bottom: 24px;
     }
-    .reason-title{   
+    section.reason-belive.home .reason-title{   
         font-size: 28px;
     }
-    .wrapper-partnership {
+    section.partnership .wrapper-partnership {
         padding: 0;
     }
-    .partnership-title {
+    section.partnership .partnership-title {
         font-size: 28px;
         line-height: 34px;
     }
-    .vm-lg{
+    .partnership.contact-us .wrapper-partnership {
+        padding: 0;
+    }
+    .partnership.contact-us .partnership-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    section.testimonial .vm-lg{
         display: none;
     }
-    .vm-sm{
+    section.testimonial .vm-sm{
         display: block;
     }
-    .col-img{
+    section.testimonial .col-img{
         flex: 0 0 auto;
         width: 32% !important;
         margin-bottom: 24px;
     }
-    .testimonial {
+    section.testimonial {
         padding-top: 64px;
         padding-bottom: 84px;
     }
@@ -115,137 +122,137 @@
 
     /* Services */
 
-    .banner-services {
+    section.banner-lawyers, section.banner-service {
         padding-bottom: 164px;
     }
-    .banner-services .banner-title {
+    section.banner-lawyers .banner-title ,section.banner-service .banner-title {
         max-width: 327px;
     }
-    .about-services .wrapper-services {
+    section.lawyers.about-services .wrapper-services, section.about-services .wrapper-services {
         padding: 34px 34px 54px 34px;
     }
-    .about-services .services-description {
+    section.lawyers.about-services .services-description, section.about-services .services-description {
         padding-left: 24px;
     }
-    .wrapper-pricing-filter .item-pricing {
+    section.pricing .wrapper-pricing-filter .item-pricing {
         margin-right: 0px;
         margin-bottom: 14px;
         flex: 100%;
     }
-    .pricing .table-description{
+    section.pricing .table-description{
         margin-bottom: 24px;
     }
-    .pricing .table-responsive{
+    section.pricing .table-responsive{
         display: none;
     }
-    .how-it-works .wrapper-step {
+    section.how-it-works .wrapper-step {
         padding-top: 80px;
         padding-bottom: 80px;
     }
-    .how-it-works .wrapper-icon {
+    section.how-it-works .wrapper-icon {
         width: 128px;
         height: 128px;
         margin: auto;
         margin-bottom: 24px;
     }
-    .how-it-works .icon-step {
+    section.how-it-works .icon-step {
         width: 78px;
     }
-    .how-it-works .wrapper-step-description{
+    section.how-it-works .wrapper-step-description{
         flex:100%;
         text-align: center;
     }
-    .how-it-works .wrapper-step:nth-child(odd) .step-row .wrapper-step-description{
+    section.how-it-works .wrapper-step:nth-child(odd) .step-row .wrapper-step-description{
         padding-left: 0px;
     }
-    .how-it-works .wrapper-step:nth-child(even) .step-row .wrapper-step-description {
+    section.how-it-works .wrapper-step:nth-child(even) .step-row .wrapper-step-description {
         padding-right: 0px;
     }
-    .how-it-works .feature-description {
+    section.how-it-works .feature-description {
         margin-bottom: 38px;
     }
-    .row-pricing-filter .button-pricing{
+    section.pricing .row-pricing-filter .button-pricing{
         width: 100%;
         display: block;
     }
 
     /* Lawyers-Section */
-    .banner-lawyers-detail .wrapper-banner-description {
+    section.banner-lawyers-detail .wrapper-banner-description {
         margin-left: 0px;
         width: 100%;
     }
-    .banner-lawyers-detail .banner-profile{
+    section.banner-lawyers-detail .banner-profile{
         margin-bottom: 20px;
         width: 108px;
         height: 108px;
     }
-    .banner-lawyers-detail .banner-title{
+    section.banner-lawyers-detail .banner-title{
         font-size: 18px;
         line-height: 26px;
     }
-    .banner-lawyers-detail .banner-description{
+    section.banner-lawyers-detail .banner-description{
         width: 100%;
     }
-    .banner-lawyers-detail .wrapper-experiance span{
+    section.banner-lawyers-detail .wrapper-experiance span{
         display: none;
     }
-    .profile-services {
+    section.profile-services {
         margin-top: -89px;
     }
-    .banner-lawyers-detail {
+    section.banner-lawyers-detail {
         padding-top: 98px;
         padding-bottom: 124px;
     }
-    .profile-services .wrapper-services{
+    section.profile-services .wrapper-services{
         padding: 24px;
     }
 
-    .profile-identity .head-profile-identity{
+    section.profile-services .profile-identity .head-profile-identity{
         margin-bottom: 20px;
     }
-    .profile-identity .head-profile-identity::after{
+    section.profile-services .profile-identity .head-profile-identity::after{
         bottom: -6px;
     }
     section.our-lawyers , section.other-lawyers{
         padding-top: 38px;
     }
-    .our-lawyers .lawyers-seperator, .other-lawyers .lawyers-seperator{
+    section.our-lawyers .lawyers-seperator, section.other-lawyers .lawyers-seperator{
         margin-bottom: 58px;
     }
 
     /* Contact */
-    .banner-contact {
+    section.banner-contact {
         padding-bottom: 146px;
     }
-    .banner-contact .banner-title {
+    section.banner-contact .banner-title {
         font-size: 32px;
         max-width: 270px;
     }
-    .customer-assistance {
+    section.customer-assistance {
         margin-top: -118px;
         padding-top: 24px;
     }
-    .customer-assistance .item-customer-assistance, .customer-assistance .item-faq {
+    section.customer-assistance .item-customer-assistance, section.customer-assistance .item-faq {
         padding: 34px 24px;
         justify-content: center;
         margin-bottom: 14px;
     }
-    .item-customer-assistance .wrapper-icon, .item-faq .wrapper-icon{
+    section.customer-assistance .item-customer-assistance .wrapper-icon, .item-faq .wrapper-icon{
         width: 100px;
         height: 100px;
         margin-bottom: 18px;
     }
-    .item-customer-assistance .wrapper-content , .item-faq .wrapper-content{
+    section.customer-assistance .item-customer-assistance .wrapper-content , .item-faq .wrapper-content{
         margin-left: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
-    .item-customer-assistance .item-description, .item-faq .item-description{
+    section.customer-assistance .item-customer-assistance .item-description, .item-faq .item-description{
         text-align: center;
     }
-    .item-customer-assistance .item-faq .item-title, .item-faq .item-title{
+    section.customer-assistance .item-customer-assistance .item-faq .item-title, .item-faq .item-title{
         text-align: center;
     }
     section.contact {
@@ -294,54 +301,131 @@
     section.contact .right .wrapper-form-control .form-check-inline{
         width: 100%;
     }
-    .contact .right form .wrapper-form-control:nth-child(3),     .contact .right form .wrapper-form-control:nth-child(4){
+    section.contact .right form .wrapper-form-control:nth-child(3),     section.contact .right form .wrapper-form-control:nth-child(4){
         margin-bottom: 32px;
     }
 
     /* FAQ */
-    .header-faq .banner-title{
+    section.header-faq .banner-title{
         font-size: 28px;
         line-height: 34px;
     }
-    .faq-body .nav-pills{
+    section.faq-body .nav-pills{
         justify-content: center;
         margin-bottom: 68px;
     }
-    .faq-body .nav-pills .nav-link{
+    section.faq-body .nav-pills .nav-link{
         min-height: max-content;
     }
-    .faq-body .nav-pills .nav-link span{
+    section.faq-body .nav-pills .nav-link span{
         display: none;
     }
-    .faq-body .nav-pills .nav-item{
+    section.faq-body .nav-pills .nav-item{
         flex: 0 0 33.3%;
         margin-bottom: 14px;
     }
-    .faq-body .nav-pills .nav-link img{
+    section.faq-body .nav-pills .nav-link img{
         margin-bottom: 0;
     }
 
     /* Register */
-    .register-form{
+    section.register-form{
         padding-top: 32px;
         padding-bottom: 64px;
     }
-    .register-form .right .title{
+    section.register-form .right .title{
         font-size: 26px;
         line-height: 32px;
     }
-    .register-form .left{
+    section.register-form .left{
         display: none;
     }
-    .register-form .right {
+    section.register-form .right {
         padding: 0;
     }
-    .register-form .right .wrapper-form-control{
+    section.register-form .right .wrapper-form-control{
         margin-bottom: 0;
     }
-    .register-form .right .wrapper-form-control .col{
+    section.register-form .right .wrapper-form-control .col{
         flex: 1 0 100%;
         margin-bottom: 32px;
+    }
+
+    /* Dashboard */
+    .dashboard-sub-nav .tab-content .home .wrapper-left .absolute-image{
+        display: none;
+    }
+    .main-dashboard-nav form{
+        display: none;
+    }
+    .main-dashboard-nav .dashboard-nav-right{
+        padding: 0;
+    }
+    .main-dashboard-nav .wrapper-profile .ic-profile {
+        width: 42px;
+        height: 42px;
+    }
+    .main-dashboard-nav .wrapper-profile .profile-name{
+        display: none;
+    }
+    .main-dashboard-nav .dropdown-toggle::after{
+        display: none;
+    }
+    .dashboard-nav-right .dropdown-menu{
+        left: auto;
+        right: 0;
+    }
+    .dashboard-sub-nav .nav-fixed{
+        top: auto;
+        bottom: 10px;
+    }
+    .dashboard-sub-nav .nav-pills{
+        padding: 0;
+        border-radius: 24px;
+        width: 96%;
+        margin: auto;
+        justify-content: space-evenly;
+        box-shadow: 0px 4px 32px rgba(19, 34, 55, 0.15);
+    }
+    .dashboard-sub-nav .nav-pills .nav-item{
+        margin: 0;
+    }
+    .dashboard-sub-nav .nav-pills .nav-item .nav-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px 12px 14px 12px;
+    }
+    .dashboard-sub-nav .nav-pills .nav-link.active{
+        background: none;
+    }
+    .dashboard-sub-nav .nav-pills .nav-item .nav-link .ic-nav-dashboard{
+        margin-right: 0;
+        margin-bottom: 6px;
+    }
+    .dashboard-sub-nav .tab-content{
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    .dashboard-sub-nav .tab-content .history .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right .right-image{
+        display: none;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right {
+        text-align: left;
+        padding: 28px 18px;
+        margin-bottom: 26px;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right .right-content{
+        margin-bottom: 22px;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right .right-button{
+        width: max-content;
+        padding: 10px 26px;
+        font-size: 12px;
     }
 }
 
@@ -355,63 +439,70 @@
     .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
         border-bottom: none;
     }
-    .banner .overlay{
+    section.home.banner .overlay{
         background: linear-gradient(94.33deg, #331b4d 22%, rgba(19, 34, 55, 0) 140%);
     }
-    .banner .carousel-indicators{
+    section.home.banner .carousel-indicators{
         margin-left: 8%;
     }
-    .banner .carousel-caption{
+    section.home.banner .carousel-caption{
         margin-right: 8%;
         margin-left: 8%;
     }
-    .banner .banner-title {
+    section.home.banner .banner-title {
         font-size: 28px;
         line-height: 36px;
         max-width: 384px !important;
     }
-    .banner .banner-description {
+    section.home.banner .banner-description {
         max-width: 274px !important;
     }
-    .banner .btn-banner {
+    section.home.banner .btn-banner {
         font-size: 12px;
         line-height: 17px;
         padding: 8px 18px;
     }
-    .about-company {
+    section.about-company.home .about-company {
         padding-top: 68px;
         padding-bottom: 84px;
     }
-    .wrapper-about {
+    section.about-company.home .wrapper-about {
         padding-left: 28px;
         margin-right: 0;
         margin-left: 0;
         padding-top: 12px;
         padding-bottom: 14px;
     }
-    .wrapper-reason{
+    section.reason-belive.home .wrapper-reason{
         padding: 48px 28px;
     }
-    .reason-item{
+    section.reason-belive.home .reason-item{
         margin-bottom: 24px;
     }
-    .reason-title{   
+    section.reason-belive.home .reason-title{   
         font-size: 28px;
     }
-    .partnership-title {
+    section.partnership .partnership-title {
         font-size: 28px;
         line-height: 34px;
     }
-    .wrapper-partnership {
+    section.partnership .wrapper-partnership {
         padding: 0px 0px;
     }
-    .vm-lg{
+    .partnership.contact-us .partnership-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .partnership.contact-us .wrapper-partnership {
+        padding: 0px 0px;
+    }
+    section.testimonial .vm-lg{
         display: none;
     }
-    .vm-sm{
+    section.testimonial .vm-sm{
         display: block;
     }
-    .testimonial {
+    section.testimonial {
         padding-top: 64px;
         padding-bottom: 84px;
     }
@@ -442,77 +533,77 @@
 
     /* Services */
 
-    .about-services .wrapper-services {
+    section.lawyers.about-services .wrapper-services, section.about-services .wrapper-services {
         padding: 42px 34px 54px 34px;
     }
-    .pricing .table-responsive{
+    section.pricing .table-responsive{
         display: none;
     }
-    .how-it-works .wrapper-icon {
+    section.how-it-works .wrapper-icon {
         width: 158px;
         height: 158px;
     }
-    .how-it-works .icon-step {
+    section.how-it-works .icon-step {
         width: 98px;
     }
-    .how-it-works .step-row{
+    section.how-it-works .step-row{
         align-items: flex-start;
     }
 
     /* Lawyers-Section */
 
-    .our-lawyers .col-md-3{
+    section.our-lawyers .col-md-3{
         flex: 0 0 50%;
     }
-    .other-lawyers .col-md-3{
+    section.other-lawyers .col-md-3{
         flex: 0 0 50%;
     }
-    .banner-lawyers-detail .wrapper-banner-description {
+    section.banner-lawyers-detail .wrapper-banner-description {
         margin-left: 0px;
         width: 100%;
     }
-    .banner-lawyers-detail .banner-profile{
+    section.banner-lawyers-detail .banner-profile{
         margin-bottom: 20px;
         width: 108px;
         height: 108px;
     }
-    .profile-services {
+    section.profile-services {
         margin-top: -89px;
     }
-    .banner-lawyers-detail {
+    section.banner-lawyers-detail {
         padding-top: 98px;
         padding-bottom: 124px;
     }
 
     /* Contact */
-    .banner-contact {
+    section.banner-contact {
         padding-bottom: 146px;
     }
-    .banner-contact .banner-title {
+    section.banner-contact .banner-title {
         font-size: 32px;
         max-width: 270px;
     }
-    .customer-assistance {
+    section.customer-assistance {
         margin-top: -118px;
     }
-    .customer-assistance .item-customer-assistance, .customer-assistance .item-faq {
+    section.customer-assistance .item-customer-assistance, section.customer-assistance .item-faq {
         padding: 34px 24px;
         justify-content: center;
         margin-bottom: 14px;
     }
-    .item-customer-assistance .wrapper-icon, .item-faq .wrapper-icon{
+    section.customer-assistance .item-customer-assistance .wrapper-icon, section.customer-assistance .item-faq .wrapper-icon{
         width: 100px;
         height: 100px;
         margin-bottom: 18px;
     }
-    .item-customer-assistance .wrapper-content , .item-faq .wrapper-content{
+    section.customer-assistance .item-customer-assistance .wrapper-content , section.customer-assistance .item-faq .wrapper-content{
         margin-left: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
-    .item-customer-assistance .item-description, .item-faq .item-description{
+    section.customer-assistance .item-customer-assistance .item-description, section.customer-assistance .item-faq .item-description{
         text-align: center;
     }
     section.contact {
@@ -522,7 +613,8 @@
     section.contact .left .col:nth-child(2) {
         padding-right: 0;
         margin-bottom: 28px;
-    }.contact .left .col:nth-last-child(1) {
+    }
+    section.contact .left .col:nth-last-child(1) {
         padding-left: 0;
         margin-bottom: 28px;
     }
@@ -534,29 +626,106 @@
     }
 
     /* FAQ */
-    .faq-body .nav-pills .nav-item {
+    section.faq-body .nav-pills .nav-item {
         flex: 0 0 50%;
         margin-bottom: 16px;
     }
-    .faq-body .nav-pills {
+    section.faq-body .nav-pills {
         margin-bottom: 84px;
         justify-content: center;
     }
     
     /* Register */
-    .register-form{
+    section.register-form{
         padding-top: 32px;
         padding-bottom: 64px;
     }
-    .register-form .right .title{
+    section.register-form .right .title{
         font-size: 28px;
         line-height: 34px;
     }
-    .register-form .left{
+    section.register-form .left{
         display: none;
     }
-    .register-form .right {
+    section.register-form .right {
         padding: 0;
+    }
+
+    /* Dashboard */
+    .dashboard-sub-nav .tab-content .home .wrapper-left .absolute-image{
+        display: none;
+    }
+    .main-dashboard-nav form{
+        display: none;
+    }
+    .main-dashboard-nav .dashboard-nav-right{
+        padding: 0;
+    }
+    .main-dashboard-nav .wrapper-profile .ic-profile {
+        width: 42px;
+        height: 42px;
+    }
+    .main-dashboard-nav .wrapper-profile .profile-name{
+        display: none;
+    }
+    .main-dashboard-nav .dropdown-toggle::after{
+        display: none;
+    }
+    .dashboard-nav-right .dropdown-menu{
+        left: auto;
+        right: 0;
+    }
+    .dashboard-sub-nav .nav-fixed{
+        top: auto;
+        bottom: 10px;
+    }
+    .dashboard-sub-nav .nav-pills{
+        padding: 0;
+        border-radius: 24px;
+        width: 87%;
+        margin: auto;
+        justify-content: space-evenly;
+        box-shadow: 0px 4px 32px rgba(19, 34, 55, 0.15);
+    }
+    .dashboard-sub-nav .nav-pills .nav-item{
+        margin: 0;
+    }
+    .dashboard-sub-nav .nav-pills .nav-item .nav-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px 12px 14px 12px;
+    }
+    .dashboard-sub-nav .nav-pills .nav-link.active{
+        background: none;
+    }
+    .dashboard-sub-nav .nav-pills .nav-item .nav-link .ic-nav-dashboard{
+        margin-right: 0;
+        margin-bottom: 6px;
+    }
+    .dashboard-sub-nav .tab-content{
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    .dashboard-sub-nav .tab-content .history .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right .right-image{
+        display: none;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right {
+        text-align: left;
+        padding: 28px 18px;
+        margin-bottom: 26px;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right .right-content{
+        margin-bottom: 22px;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right .right-button{
+        width: max-content;
+        padding: 10px 26px;
+        font-size: 12px;
     }
 }
 
@@ -569,10 +738,10 @@
     .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
         border-bottom: none;
     }
-    .banner .overlay{
+    section.home.banner .overlay{
         background: linear-gradient(94.33deg, #331b4d 22%, rgba(19, 34, 55, 0) 140%);
     }
-    .wrapper-about {
+    section.about-company.home .wrapper-about {
         margin-right: 44px;
         margin-left: 44px;
         padding-top: 12px;
@@ -590,34 +759,34 @@
 
     /* Services */
 
-    .pricing .table-responsive{
+    section.pricing .table-responsive{
         display: none;
     }
 
     /* Lawyers-Section */
 
-    .our-lawyers .col-md-3{
+    section.our-lawyers .col-md-3{
         flex: 0 0 33.3%;
     }
-    .other-lawyers .col-md-3{
+    section.other-lawyers .col-md-3{
         flex: 0 0 33.3%;
     }
 
     /* Contact */
-    .customer-assistance .item-customer-assistance, .customer-assistance .item-faq {
+    section.customer-assistance .item-customer-assistance, section.customer-assistance .item-faq {
         padding: 34px 24px;    
         min-height: 373px;
     }
-    .item-customer-assistance .wrapper-icon, .item-faq .wrapper-icon{
+    section.customer-assistance .item-customer-assistance .wrapper-icon, .item-faq .wrapper-icon{
         width: 100px;
         height: 100px;
         margin-bottom: 18px;
     }
-    .item-customer-assistance .wrapper-content , .item-faq .wrapper-content{
+    section.customer-assistance .item-customer-assistance .wrapper-content , section.customer-assistance .item-faq .wrapper-content{
         margin-left: 0;
         width: 100%;
     }
-    .item-customer-assistance .button-cs, .item-customer-assistance .button-cs:hover ,.item-faq .button-cs, .item-faq .button-cs:hover{
+    section.customer-assistance .item-customer-assistance .button-cs, section.customer-assistance .item-customer-assistance .button-cs:hover , section.customer-assistance .item-faq .button-cs, section.customer-assistance .item-faq .button-cs:hover{
         padding: 16px 18px;
         width: 100%;
     }
@@ -633,7 +802,8 @@
     section.contact .left .col:nth-child(2) {
         padding-right: 0;
         margin-bottom: 28px;
-    }.contact .left .col:nth-last-child(1) {
+    }
+    section.contact .left .col:nth-last-child(1) {
         padding-left: 0;
         margin-bottom: 28px;
     }
@@ -641,38 +811,38 @@
         max-width: max-content;
     }
     /* FAQ */
-    .faq-body .nav-pills .nav-item {
+    section.faq-body .nav-pills .nav-item {
         flex: 0 0 33.3%;
         margin-bottom: 16px;
     }
-    .faq-body .nav-pills {
+    section.faq-body .nav-pills {
         margin-bottom: 84px;
         justify-content: center;
     }
 
     /* Register */
-    .register-form{
+    section.register-form{
         padding-top: 32px;
         padding-bottom: 64px;
     }
-    .register-form .right .title{
+    section.register-form .right .title{
         font-size: 28px;
         line-height: 34px;
     }
-    .register-form .right {
+    section.register-form .right {
         padding: 0;
     }
-    .register-form .right .wrapper-form-control{
+    section.register-form .right .wrapper-form-control{
         margin-bottom: 0;
     }
-    .register-form .right .wrapper-form-control .col{
+    section.register-form .right .wrapper-form-control .col{
         flex: 1 0 100%;
         margin-bottom: 32px;
     }
-    .register-form .left .quotes{
+    section.register-form .left .quotes{
         font-size: 12px;
     }
-    .register-form .left {
+    section.register-form .left {
         padding: 46px 28px 68px 28px;
     }
 }
@@ -680,32 +850,33 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
     /* Services */
     
-    .accordion-pricing{
+    section.pricing .accordion-pricing{
         display: none;
     }
 
     /* Contact */
-    .customer-assistance .item-customer-assistance, .customer-assistance .item-faq {
+    section.customer-assistance .item-customer-assistance, section.customer-assistance .item-faq {
         padding: 34px 24px;    
         min-height: 373px;
     }
-    .item-customer-assistance .wrapper-icon, .item-faq .wrapper-icon{
+    section.customer-assistance .item-customer-assistance .wrapper-icon, section.customer-assistance .item-faq .wrapper-icon{
         width: 100px;
         height: 100px;
         margin-bottom: 18px;
     }
-    .item-customer-assistance .wrapper-content , .item-faq .wrapper-content{
+    section.customer-assistance .item-customer-assistance .wrapper-content , section.customer-assistance .item-faq .wrapper-content{
         margin-left: 0;
         width: 100%;
     }
-    .item-customer-assistance .button-cs, .item-customer-assistance .button-cs:hover ,.item-faq .button-cs, .item-faq .button-cs:hover{
+    section.customer-assistance .item-customer-assistance .button-cs, section.customer-assistance .item-customer-assistance .button-cs:hover , section.customer-assistance .item-faq .button-cs, section.customer-assistance .item-faq .button-cs:hover{
         padding: 16px 18px;
         width: 100%;
     }
     section.contact .left .col:nth-child(2) {
         padding-right: 10px;
         margin-bottom: 28px;
-    }.contact .left .col:nth-last-child(1) {
+    }
+    section.contact .left .col:nth-last-child(1) {
         padding-left: 10px;
         margin-bottom: 28px;
     }
@@ -718,7 +889,7 @@
 
     /* Services */
     
-    .accordion-pricing{
+    section.pricing .accordion-pricing{
         display: none;
     }
 }
