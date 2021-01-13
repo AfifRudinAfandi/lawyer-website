@@ -327,11 +327,16 @@
     section.faq-body .nav-pills .nav-link img{
         margin-bottom: 0;
     }
+    .dashboard-sub-nav .tab-content .faq section.faq-body .nav-pills .nav-link img{
+        margin-bottom: 0;
+    }
 
     .dashboard-sub-nav .tab-content .faq section.faq-body .nav-pills{
         justify-content: center;
         margin-bottom: 68px;
         box-shadow:none;
+        width: calc(100% + 24px);
+        margin: 0px -12px;
     }
     .dashboard-sub-nav .tab-content .faq section.faq-body .nav-pills .nav-link{
         min-height: max-content;
@@ -860,6 +865,7 @@
     .dashboard-sub-nav .tab-content .faq section.faq-body .nav-pills {
         margin-bottom: 84px;
         justify-content: center;
+        width: 100%;
     }
 
     /* Register */
