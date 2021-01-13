@@ -2481,7 +2481,7 @@ section.register-form .forgot, .forgot:hover{
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030;
+    z-index: 1020;
 }
 .dashboard-sub-nav .nav-pills{
     display: flex;
