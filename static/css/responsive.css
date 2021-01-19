@@ -1,6 +1,6 @@
 @media (max-width: 575.98px) {
     /* Navbar */
-    nav .dropdown-multicol{
+    .main-nav .dropdown-multicol{
         width: auto;
         padding: 14px 0px;
     }
