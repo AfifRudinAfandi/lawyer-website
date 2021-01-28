@@ -2668,6 +2668,16 @@ section.register-form .forgot, .forgot:hover{
     align-items: center;
     text-decoration: none;
 }
+.dashboard-sub-nav .tab-content .history .wrapper-left .history-list .item-link .wrapper-icon-category{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F2F2F2;
+    border-radius: 100%;
+}
 .dashboard-sub-nav .tab-content .history .wrapper-left .history-list .item-link .wrapper-icon{
     width: 38px;
     height: 38px;
@@ -2677,6 +2687,9 @@ section.register-form .forgot, .forgot:hover{
     justify-content: center;
     border: 1px solid #F2F2F2;
     border-radius: 100%;
+}
+.dashboard-sub-nav .tab-content .history .wrapper-left .history-list .item-link .wrapper-icon .ic-transaction-category{
+    width: 70%;
 }
 .dashboard-sub-nav .tab-content .history .wrapper-left .history-list .item-link .wrapper-icon i{
     color: #2E3A59;
@@ -2704,7 +2717,7 @@ section.register-form .forgot, .forgot:hover{
     align-items: center;
 }
 .dashboard-sub-nav .tab-content .history .wrapper-left .history-list .item-link .date-status i{
-    font-size: 8px;
+    font-size: 6px;
     margin: 0px 8px;
 }
 .dashboard-sub-nav .tab-content .history .wrapper-left .history-list .item-link .date-status span{
@@ -2771,7 +2784,7 @@ section.register-form .forgot, .forgot:hover{
     align-items: center;
 }
 .dashboard-sub-nav .tab-content .history .wrapper-left .history-track .track-list .date-status i{
-    font-size: 8px;
+    font-size: 6px;
     margin: 0px 8px;
 }
 .dashboard-sub-nav .tab-content .history .wrapper-left .history-track .track-list .date-status a{
@@ -2780,6 +2793,79 @@ section.register-form .forgot, .forgot:hover{
     text-decoration: none;
 }
 
+/* --- */
+.dashboard-sub-nav .tab-content .history .wrapper-left .wrapper-track-category .header-track-category .date-status span{
+    font-style: italic;
+    color: #745285;
+    text-decoration: none;
+}
+.dashboard-sub-nav .tab-content .history .wrapper-left .wrapper-track-category .history-track .track-list:nth-last-of-type(1)::after{
+    display: block;
+}
+.dashboard-sub-nav .tab-content .history .wrapper-left .wrapper-track-category .history-track{
+    list-style: none;
+    padding-left: 54px;
+}
+.dashboard-sub-nav .tab-content .history .wrapper-left .wrapper-track-category .history-track .track-list{
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.dashboard-sub-nav .tab-content .history .wrapper-left .wrapper-track-category .history-track .track-list::after{
+    content: "";
+    position: absolute;
+    border-left: 1px solid #E0E0E0;
+    height: 18px;
+    top: -25px;
+    bottom: auto;
+    left: 18px;
+}
+.dashboard-sub-nav .tab-content .history .wrapper-left .wrapper-track-category .header-track-category{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.dashboard-sub-nav .tab-content .history .wrapper-left .wrapper-track-category .header-track-category .wrapper-icon-category{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F2F2F2;
+    border-radius: 100%;
+}
+.dashboard-sub-nav .tab-content .history .wrapper-left  .wrapper-track-category .header-track-category .wrapper-icon-category .ic-transaction-category{
+    width: 70%;
+}
+.dashboard-sub-nav .tab-content .history .wrapper-left .wrapper-track-category .header-track-category .description-list{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 4px;
+}
+.dashboard-sub-nav .tab-content .history .wrapper-left .wrapper-track-category .header-track-category .date-status{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #767676;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dashboard-sub-nav .tab-content .history .wrapper-left .wrapper-track-category .header-track-category  .date-status i {
+    font-size: 6px;
+    margin: 0px 8px;
+}
 
 
 .dashboard-sub-nav .tab-content .payment .wrapper-left .payment-list{
