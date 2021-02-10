@@ -627,6 +627,9 @@ section.testimonial .btn-view-more{
     text-transform: capitalize;
     color: #FF7C5E;
 }
+section.testimonial .card{
+    padding: 20px;
+}
 section.testimonial .wrapper-content{
     display: flex;
     flex-direction: row;
