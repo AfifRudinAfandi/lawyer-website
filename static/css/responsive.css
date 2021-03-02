@@ -4,7 +4,6 @@
         width: auto;
         padding: 14px 0px;
     }
-
     /* Home-Page */
     .navbar-light{
         padding-bottom: 18px;
@@ -452,6 +451,19 @@
     .dashboard-sub-nav .tab-content .payment .wrapper-left .payment-list .list-item .link-invoice span{
         display: none;
     }
+
+    section.syarat-ketentuan .lg-view-pane{
+        display: none;
+    }
+    section.syarat-ketentuan .sm-view-pane{
+        display: block;
+    }
+    section.header-sk{
+        padding: 58px 12px 48px 12px;
+    }
+    section.header-pp{
+        padding-bottom: 12px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -765,6 +777,17 @@
     .dashboard-sub-nav .tab-content .payment .wrapper-left .payment-list .list-item .link-invoice span{
         display: none;
     }
+
+    
+    section.syarat-ketentuan .lg-view-pane{
+        display: none;
+    }
+    section.syarat-ketentuan .sm-view-pane{
+        display: block;
+    }
+    section.header-sk{
+        padding: 58px 12px 48px 12px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -896,6 +919,17 @@
     
     .dashboard-sub-nav .tab-content .payment .wrapper-left .payment-list .list-item .link-invoice span{
         display: none;
+    }
+
+    
+    section.syarat-ketentuan .lg-view-pane{
+        display: none;
+    }
+    section.syarat-ketentuan .sm-view-pane{
+        display: block;
+    }
+    section.header-sk{
+        padding: 58px 12px 48px 12px;
     }
 }
 
